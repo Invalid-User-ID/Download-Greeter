@@ -1,0 +1,4 @@
+Version = "05-09-2026"
+Authors = ["UN"]
+Name = "☳☶plug - DOWNLOAD GREETING"
+Description = "Send a configurable private greeting when a user queues a download from you.\n\nBehavior:\n  - Watches upload queue events\n  - Remembers users until expiry period passes\n  - Re-greets expired users automatically\n  - Stores compact user history JSON\n\nCommands:\n  /downgreet <user>\n    Show greeting history for user\n\n  /downgreet_forget <user>\n    Forget one user\n\n  /downgreet_clear\n    Clear all remembered users\n\nSettings:\n  - Enable/disable plugin\n  - Greeting message\n  - Username expiry days\n  - Optional event logging\n\nMessage Variables:\n  {user}\n  {expiry_days}\n  {date}\n\nTarget:\n  Nicotine+ 3.3.10"
